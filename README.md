@@ -9,13 +9,15 @@ Assim, o Título Eleitoral número 004356870906, por exemplo, tem como:
 
 O primeiro Dígito Verificador corresponde ao resto da divisão por 11 do somatório do produto de cada algarismo do número sequencial respectivamente por 2, 3, 4, 5, 6, 7, 8 e 9, a partir da esquerda. Quando o resto da divisão do somatório por 11 for igual a 10, o dígito verificador é definido como 0. Por exemplo, para o número sequencial 00435687 tem-se:
 
-titulo1.png
+![image](https://github.com/user-attachments/assets/a61b4511-f731-43eb-9c3c-01501e9804ce)
+
 
 Como o resto da divisão de 230 por 11 é igual a 10 tem-se que o primeiro dígito verificador é 0.
 
 O segundo dígito verificador corresponde ao resto da divisão por 11 do somatório do produto dos dois números da UF e do primeiro dígito verificador por 7, 8 e 9, respectivamente, a partir da esquerda. Quando o resto do somatório por 11 for igual a 10, o dígito verificador é definido como 0.
 
-titulo2.png
+![image](https://github.com/user-attachments/assets/99d2d051-934e-4652-a76d-fd886390b68d)
+
 
 Como o resto da divisão de 72 por 11 é igual a 6 tem-se que segundo dígito verificador é 6.
 
