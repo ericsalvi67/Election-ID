@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-void titulo_de_eleitor(char titulo[11],int *dv1, int *dv2)
+void titulo_de_eleitor(char titulo[12],int *dv1, int *dv2)
 {
   int i;
   int soma=0;
@@ -25,11 +25,12 @@ void titulo_de_eleitor(char titulo[11],int *dv1, int *dv2)
 
   titulo[10]=*dv1+48;
   titulo[11]=*dv2+48;
+  titulo[12]='\0';
 }
 
 int main()
 {
-  char titulo[11];
+  char titulo[12];
   int dv1,dv2;
   printf("DIGITE O TITULO (10 DIGITOS): ");
   gets(titulo);
